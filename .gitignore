@@ -1,0 +1,32 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# App / local
+HEIC Convert.exe
+test_samples/
+
+# Converted / media outputs (keep sources out of the repo)
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.tiff
+*.tif
+*.bmp
+*.gif
+*.heic
+*.heif
+
+# OS / editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+.idea/
+.vscode/
+*.swp
